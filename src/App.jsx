@@ -1,6 +1,8 @@
 import Divider from "./Components/Divider";
 import Header from "./Components/Header";
 import Container from "./Components/Container";
+import Main from "./Components/Main";
+import Blogs from "./Components/Blogs";
 
 function App() {
   return (
@@ -9,6 +11,11 @@ function App() {
       <Container>
         <Divider />
       </Container>
+      <Main>
+        <Container>
+          <Blogs />
+        </Container>
+      </Main>
     </>
   );
 }
